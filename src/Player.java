@@ -21,14 +21,14 @@ public class Player {
 
     public void playerStats() {
         System.out.println(getName() +  " is a " + getCategory() + " from " + getCountry() + "." +
-                            " He is " + getAge() + " years old. His record is: " + getWins() +
-                            " wins and " + getLosses() + " losses");
+                            " He is " + getAge() + " years old. His record is: " + getWin() +
+                            " wins and " + getLoss() + " losses");
     }
     public void winMatch() {
-        this.setWins(this.getWins() + 1);
+        this.setWin(this.getWin() + 1);
     }
     public void loseMatch() {
-        this.setLosses(this.getLosses() + 1);
+        this.setLoss(this.getLoss() + 1);
     }
 
     public String getName() {
@@ -96,19 +96,19 @@ public class Player {
         }
     }
 
-    public int getWins() {
+    public int getWin() {
         return wins;
     }
 
-    public void setWins(int wins) {
+    public void setWin(int wins) {
         this.wins = wins;
     }
 
-    public int getLosses() {
+    public int getLoss() {
         return losses;
     }
 
-    public void setLosses(int losses) {
+    public void setLoss(int losses) {
         this.losses = losses;
     }
 }
