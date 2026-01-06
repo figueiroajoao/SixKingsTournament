@@ -10,5 +10,5 @@ void main() {
     p[5] = new Player("Stefanos Tsitsipas", "Greece", 27, 1.93f, 90, 0, 0);
 
     Match firstRound = new Match();
-    /* firstRound.matchup(p[0], p[1]);
+    firstRound.matchup(p[0], p[1]);
 }
